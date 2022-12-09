@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+    align-content: center;
+}
+header{
+    background-color: chocolate;
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+table{
+    border: 5px;
+    border-style: ridge;
+    color: darkmagenta;
+    list-style: square;
+    line-height: 40px;
+}
+a{
+    background-color: red;
+}
+td{
+    text-size-adjust: 20px;
+}

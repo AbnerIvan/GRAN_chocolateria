@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+}
+header{
+    background-color: chocolate;
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+}
+
+article{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+    height: 200px;
+}
+footer{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    text-size-adjust: 200px;
+}
+a{
+    background-color: red;
+}
+p{
+    height: 200px;
+    text-anchor: middle;
+}
+ol{
+    height: 150px;
+    text-anchor: middle;
+}

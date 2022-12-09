@@ -1,0 +1,28 @@
+ul li{
+    list-style: none;
+}
+#header{
+    padding: 0px;
+    margin: 0px;
+}
+.nav li a{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: rgb(194, 51, 51);
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}

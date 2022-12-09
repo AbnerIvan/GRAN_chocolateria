@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+    align-content: center;
+}
+header{
+    background-color: chocolate;
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+a{
+    background-color: red;
+}
+table{
+    size: 50px;
+    text-align: justify;
+}

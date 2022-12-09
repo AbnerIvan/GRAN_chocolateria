@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <img src="Img/LOGO.jpg" width="100%" height="250 px">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-escale=0.1">
+        <script type="text/javascript" src="js/validacion.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-vkoo8x4CGsO3+Hhxv8T/Q5PaXtkktu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel= "stylesheet" type="text/css" href="Css/Formulario.css">
+        <link rel= "stylesheet" type="text/css" href="Css/MenuDes.css">
+        <link rel= "stylesheet" type="text/css" href="Css/estilo.css">
+        <script src="js/validaF.js"></script>
+        <header>
+            <img src="Img/Nombre.png" width="60%" height="130%">
+        </header>
+        <title>Atencion A Cliente</title>
+    </head>
+    <body>
+        
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"></div>
+            </div>
+        </nav>    
+        <div id="header">
+            <ul class="nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="">PRODUCTOS</a>
+                    <ul>
+                        <li><a href="ChocolateNH.html">CHOCOLATE NEGRO</a></li>
+                        <li><a href="ChocolateLH.html">CHOCOLATE CON LECHE</a></li>
+                        <li><a href="ChocolateMH.html">CHOCOLATE MEXICANO</a></li>
+                    </ul>
+                </li>
+                <li><a href="CURIOSIDADES.html">CURIOSIDADES</a></li>
+                <li><a href="INFORMACION.html">INFORMACION</a></li>
+                <li><a href="FORMULARIO.html">CALIFICACION</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section>
+            <form id="fvalida" action="php/recibe.php" method="POST" >
+                Nombre: <input type="text" name="nombre" id="nombre"><br/>
+                Apellidos: <input type="text" name="apellido" id="apellido"><br/>
+                ¿Que te parecieron los productos?: <input type="text" name="com-prod" height="50px" id="com-prod"><br/>
+                ¿Que tan accesibles son los precios?: <input type="text" name="com-prec" height="50px" id="com-prec"><br/>
+                Porfavor puntue con un numero del 1 al 10 el servivio que se le brindo: <input type="text" name="punt" id="punt"><br/>
+                <input type="submit"  value="Enviar" onclick="validaF()">
+            </form>
+        </section>
+    </body>
+</html>

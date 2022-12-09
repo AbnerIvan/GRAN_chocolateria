@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+}
+header{
+    background-color: chocolate;
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+}
+
+article{
+    float: left;
+    padding: 20px;
+    background-color: yellow;
+    height: 500px;
+}
+footer{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+a{
+    background-color: red;
+}
+p{
+    height: 200px;
+    text-anchor: middle;
+}
+ol{
+    height: 150px;
+    text-anchor: middle;
+}
+form {
+    text-align: center;
+    outline: 5px; 
+    outline-color: black;
+    background-color: orange;
+    outline-width: 10px ;
+    outline-style: auto;
+    padding: 10px;
+    align-items: center;
+}
+form ul{
+    outline: 5px; 
+    outline-color: black;
+    background-color: orange;
+    outline-width: 10px ;
+    outline-style: auto;
+    padding: 10px;
+}
+button{
+    height: 50px;
+    width: 100px;
+}
